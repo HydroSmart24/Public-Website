@@ -1,0 +1,75 @@
+/* src/styles/ResearchObjectivesSection.css */
+
+.research-objectives-section {
+    padding: 4rem 135px;
+    background-color: #ffffff;
+    color: #464646;
+  }
+  
+  .rechOb-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+    color: #464646;
+  }
+  
+  .mainOb {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: #1089b8;
+    margin-bottom: 4rem;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .objectives-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 4rem; /* Space between cards */
+    align-items: center;
+  }
+  
+  .objective-card {
+    position: relative;
+    background-color: #ffffff;
+    border: 2px solid #1089b8;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .objective-badge {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: #1089b8;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .objective-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #464646;
+  }
+  
+  .objective-description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #646464;
+    text-align: justify;
+  }
