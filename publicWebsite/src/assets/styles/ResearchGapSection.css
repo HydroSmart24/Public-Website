@@ -1,0 +1,81 @@
+/* src/styles/ResearchGapSection.css */
+
+.research-gap-section {
+    padding: 4rem 135px;
+    background-color: #ffffff;
+    color: #464646;
+  }
+  
+  .research-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #464646;
+    margin-bottom: 0.5rem;
+  }
+  
+  .research-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #646464;
+    margin-bottom: 6rem;
+  }
+  
+  .gap-cards-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .gap-card {
+    background-color: #ffffff;
+    border: 2px solid #1089b8;
+    border-radius: 15px;
+    width: 30%;
+    padding: 3rem 2rem; /* Adjust padding to prevent overlap */
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative; /* Ensure icon is relative to the card */
+  }
+  
+  /* Styling for the icon circle */
+  .gap-icon {
+    position: absolute;
+    top: -40px; /* Place the circle above the card */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%);
+    background-color: #E8E8E8; /* Light grey background */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Ensure SVG icons fit within the circle */
+  .gap-icon img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .gap-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 2rem; /* Space between icon and title */
+    margin-bottom: 1rem;
+    color: #464646;
+  }
+  
+  .gap-description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    color: #646464;
+    line-height: 1.8;
+    text-align: center; /* Align text for better readability */
+  }
+  
