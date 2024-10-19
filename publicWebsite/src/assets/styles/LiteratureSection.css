@@ -1,0 +1,61 @@
+/* src/styles/LiteratureSection.css */
+
+.literature-section {
+    padding: 4rem 135px; /* Padding around the section */
+    background-color: #ffffff; /* Background for the section */
+    color: #464646; /* Primary text color */
+  }
+  
+  .section-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #1089B8;
+  }
+  
+  .section-divider {
+    width: 150px;
+    height: 2px;
+    background-color: #1089B8;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    border: none;
+  }
+  
+  .literature-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+  }
+  
+  .literature-content {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 4rem;
+  }
+  
+  .references {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    color: #464646;
+    font-weight: 500;
+  }
+  
+  .references em {
+    font-style: italic;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  
+  .references ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .references li {
+    margin-bottom: 0.8rem;
+  }
+  

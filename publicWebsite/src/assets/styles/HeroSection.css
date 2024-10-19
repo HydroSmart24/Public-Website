@@ -1,0 +1,74 @@
+/* src/styles/HeroSection.css */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 135px;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+    width: 100vw;
+    min-height: calc(100vh - 110px);
+    margin-top: 110px;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    font-weight: 500; /* Medium weight for hero content */
+    color: #464646;
+    line-height: 1.5;
+  }
+  
+  .grey-text {
+    color: #464646; /* Grey text color */
+    font-weight: 500; /* Medium weight for consistency */
+    line-height: 1.5;
+  }
+  
+  .blue-text {
+    color: #1089B8; /* Theme blue color */
+    font-weight: 500; /* Medium weight for blue text */
+    line-height: 1.5;
+  }
+  
+  .explore-button {
+    background-color: #1089B8;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 2rem;
+  }
+  
+  .explore-button span {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .explore-button:hover {
+    background-color: #166d92;
+  }
+  
+  .hero-image-container {
+    position: relative;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-image {
+    width: 470px;
+    height: 497px;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
