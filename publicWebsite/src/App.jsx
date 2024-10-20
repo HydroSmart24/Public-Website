@@ -1,7 +1,7 @@
 // src/App.jsx
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import Navbar from './assets/Sections/Navbar';
+import Navbar from './assets/sections/Navbar';
 import HeroSection from './assets/sections/HeroSection';
 import LiteratureSection from './assets/sections/LiteratureSection';
 import ResearchGapSection from './assets/sections/ResearchGapSection';
