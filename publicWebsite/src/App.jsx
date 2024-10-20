@@ -11,7 +11,7 @@ import MethodologySection from './assets/sections/MethodologySection';
 import TechnologiesSection from './assets/sections/TechnologiesSection';
 import TimelineSection from './assets/sections/TimelineSection';
 import DocumentsSection from './assets/sections/DocumentsSection';
-import PresenationsSection from './assets/sections/PresentationsSection';
+import PresentationsSection from './assets/sections/PresentationsSection';
 import TeamSection from './assets/sections/TeamSection';
 import './assets/styles/Navbar.css';
 import './assets/styles/HeroSection.css';
@@ -39,7 +39,7 @@ const App = () => {
         <TechnologiesSection />
         <TimelineSection />
         <DocumentsSection />
-        <PresenationsSection />
+        <PresentationsSection />
         <TeamSection />
       </>
    

@@ -1,11 +1,15 @@
 // src/sections/TeamSection.jsx
 import React from 'react';
+import kalpani from '../images/members/kalpani.jpg';
+import thusith from '../images/members/thusith.jpg';
+import samitha from '../images/members/samitha.png';
+import sandali from '../images/members/sandali.png';
 
 const teamMembers = [
-  { name: 'Dr.Kalpani Manthunga', role: 'Supervisor', image: '/src/assets/images/members/kalpani.jpg' },
-  { name: 'Mr.Thushithanjana Thilakarathna', role: 'Co-Supervisor', image: '/src/assets/images/members/thusith.jpg' },
-  { name: 'Mr.Samitha Vidanarachchi', role: 'Co-Supervisor', image: '/src/assets/images/members/samitha.png' },
-  { name: 'Dissanayake D.M.S.D.K', role: 'Group Leader', image: '/src/assets/images/members/sandali.png' },
+  { name: 'Dr.Kalpani Manthunga', role: 'Supervisor', image: kalpani },
+  { name: 'Mr.Thushithanjana Thilakarathna', role: 'Co-Supervisor', image: thusith },
+  { name: 'Mr.Samitha Vidanarachchi', role: 'Co-Supervisor', image: samitha },
+  { name: 'Dissanayake D.M.S.D.K', role: 'Group Leader', image: sandali },
   { name: 'Jayarathna M.K.G', role: 'Group Member', image: '' },
   { name: 'Sahabandu M.', role: 'Group Member', image: '' },
   { name: 'Bandara T.M.K.D', role: 'Group Member', image: '' },
