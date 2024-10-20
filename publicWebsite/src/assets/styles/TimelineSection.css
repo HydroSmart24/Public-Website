@@ -1,0 +1,127 @@
+/* src/styles/TimelineSection.css */
+
+.timeline-section {
+    padding: 5rem 135px;
+    background-color: #ffffff;
+    color: #464646;
+}
+
+.timeline-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+}
+
+.timeline-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: #ffffff;
+    border-right: 2px dashed #C6C6C6;
+}
+
+.timeline-item {
+    width: 45%;
+    position: relative;
+}
+
+/* Align content to the right for left-side items */
+.timeline-item.left {
+    align-self: flex-start;
+    padding-left: 2rem;
+}
+
+/* Align content to the left for right-side items */
+.timeline-item.right {
+    align-self: flex-end;
+    padding-right: 2rem;
+}
+
+/* Timeline content */
+.timeline-content {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Connecting line for left-aligned items */
+.timeline-item.left::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -3.8rem;
+    width: calc(8% + 1rem); /* Adjusts length to connect with the center line */
+    height: 2px;
+    background-color: #1089b8;
+}
+
+/* Connecting line for right-aligned items */
+.timeline-item.right::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -3.8rem;
+    width: calc(8% + 1rem); /* Adjusts length to connect with the center line */
+    height: 2px;
+    background-color: #1089b8;
+}
+
+/* Text content on the left */
+.text-content {
+    text-align: left;
+}
+
+.milestone-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1089b8;
+}
+
+.milestone-description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #646464;
+    padding-right: 0.9rem;
+}
+
+/* Date content on the right */
+.date-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 2px solid #e0e0e0;
+    padding-left: 1rem;
+}
+
+.month {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #464646;
+}
+
+.year {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #A2A1A1;
+}

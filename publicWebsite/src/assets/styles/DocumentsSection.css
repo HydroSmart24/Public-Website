@@ -1,0 +1,91 @@
+/* src/styles/DocumentsSection.css */
+
+.documents-section {
+    padding: 5rem 135px;
+    background-color: #eaf7fc; /* Light background color */
+    color: #464646;
+  }
+  
+  .documents-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .documents-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #646464;
+    margin-bottom: 5rem;
+  }
+  
+  .documents-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 2rem;
+  }
+  
+  .document-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px;
+  }
+  
+  .document-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1089b8; /* Blue color for title */
+    margin-bottom: 1rem; 
+}
+  
+  .document-date {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    color: #646464;
+    margin-bottom: 1rem;
+  }
+  
+  .category-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .category-label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    color: #464646;
+  }
+  
+  .download-button {
+    background-color: #1089b8;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    padding: 0.1rem 0.6rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+  }
+  
+  .download-button:hover {
+    background-color: #0a6c90;
+  }
+  
+  .arrow {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+  }
+  

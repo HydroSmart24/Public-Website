@@ -1,0 +1,56 @@
+/* src/styles/MethodologySection.css */
+
+.methodology-section {
+    display: flex;
+    gap: 5rem; /* Increase the gap between the content and the image */
+    padding: 5rem 135px;
+    background-color: #ffffff;
+    color: #464646;
+    align-items: flex-start; /* Align content to the top */
+}
+
+.methodology-content {
+    flex: 1.8; /* Reduce the width of the content */
+    max-width: 55%; /* Ensure the content takes up a smaller percentage */
+}
+
+.methodology-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+    color: #464646;
+}
+
+.methodology-description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #646464;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.methodology-image-container {
+    flex: 1.2; /* Adjust the image container to take more space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; 
+    margin-top: 5rem; 
+    width: 120%; 
+    left: -3rem; 
+}
+
+.methodology-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-caption {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    color: #A2A1A1;
+    margin-top: 0.9rem;
+    text-align: center;
+}

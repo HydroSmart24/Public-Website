@@ -1,0 +1,93 @@
+.team-section {
+    padding: 5rem 135px;
+    background-color: #ffffff;
+    color: #464646;
+}
+
+.team-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+}
+
+/* Grid for the first row with 3 cards */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+/* Grid for the second row with 4 cards */
+.second-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 2rem;
+}
+
+/* Team card styling */
+.team-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px; /* Increased card height */
+    max-width: 300px;
+}
+
+/* Image container with fallback background */
+.team-image {
+    height: 400px; /* Increased height of image block */
+    background-size: cover;
+    background-position: center;
+    background-color: #e0e0e0; /* Grey background for missing images */
+    border-bottom: 1px solid #e0e0e0; /* Optional: Add separator line */
+}
+
+/* Team info styling */
+.team-info {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.team-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1089b8;
+}
+
+.team-role {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #646464;
+}
+
+.team-department {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    color: #646464;
+    line-height: 1.4;
+}
+
+/* Links styling */
+.team-links a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    color: #1089b8;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.team-links a:hover {
+    text-decoration: underline;
+}
