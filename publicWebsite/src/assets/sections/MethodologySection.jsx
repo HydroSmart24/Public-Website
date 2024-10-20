@@ -1,14 +1,13 @@
 // src/sections/MethodologySection.jsx
 import React from 'react';
-import '../styles/MethodologySection.css'; // Import CSS for styling
 import overview from '../images/overview.png'; // Import the image
 
 const MethodologySection = () => {
   return (
-    <section className="methodology-section">
-      <div className="methodology-content">
-        <h2 className="methodology-title">Methodology</h2>
-        <p className="methodology-description">
+    <section className="flex gap-[5rem] p-[5rem] px-[135px] bg-white text-[#464646] items-start">
+      <div className="flex-1.8 max-w-[55%]">
+        <h2 className="font-poppins text-[2.5rem] font-medium mb-[4rem] text-[#464646]">Methodology</h2>
+        <p className="font-poppins text-base leading-6 text-[#646464] mb-[1.5rem] text-justify">
           The proposed research provides an overall mobile application-based solution for 
           rainwater harvesting tanks as per the illustration in Fig 1. The users are able 
           to monitor the real-time availability and also the PH and turbidity levels of water 
@@ -29,9 +28,9 @@ const MethodologySection = () => {
         </p>
       </div>
 
-      <div className="methodology-image-container">
-        <img src={overview} alt="System Architecture Diagram" className="methodology-image" />
-        <p className="image-caption">Fig 1. High Level Architecture of The System</p>
+      <div className="flex-1.2 flex flex-col items-center relative mt-[5rem] w-[120%] left-[-3rem]">
+        <img src={overview} alt="System Architecture Diagram" className="max-w-full h-auto" />
+        <p className="font-poppins text-sm text-[#A2A1A1] mt-[0.9rem] text-center">Fig 1. High Level Architecture of The System</p>
       </div>
     </section>
   );

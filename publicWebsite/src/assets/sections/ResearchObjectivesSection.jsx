@@ -1,6 +1,5 @@
 // src/sections/ResearchObjectivesSection.jsx
 import React from 'react';
-import '../styles/ResearchObjectivesSection.css'; // Import CSS for styling
 
 const objectives = [
   {
@@ -31,17 +30,19 @@ const objectives = [
 
 const ResearchObjectivesSection = () => {
   return (
-    <section className="research-objectives-section">
-      <h2 className="rechOb-title">Research Objectives</h2>
-      <p className="mainOb">
-        Mobile Application To Enhance And Manage <br/> The Smart Rainwater Harvesting Tanks In Rural Areas
+    <section className="py-16 px-36 bg-white text-[#464646]">
+      <h2 className="font-poppins text-4xl font-medium mb-16">Research Objectives</h2>
+      <p className="font-poppins text-lg text-[#1089b8] mb-16 text-center font-semibold">
+        Mobile Application To Enhance And Manage <br /> The Smart Rainwater Harvesting Tanks In Rural Areas
       </p>
-      <div className="objectives-container">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
         {objectives.map((objective) => (
-          <div key={objective.id} className="objective-card">
-            <span className="objective-badge">{objective.id}</span>
-            <h3 className="objective-title">{objective.title}</h3>
-            <p className="objective-description">{objective.description}</p>
+          <div key={objective.id} className="relative bg-white border-2 border-[#1089b8] rounded-lg p-8 shadow-md">
+            <span className="absolute top-[-15px] right-[-15px] bg-[#1089b8] text-white w-10 h-10 flex items-center justify-center rounded-full font-poppins text-lg font-semibold shadow-md">
+              {objective.id}
+            </span>
+            <h3 className="font-poppins text-xl font-semibold mb-2 text-[#464646]">{objective.title}</h3>
+            <p className="font-poppins text-base leading-6 text-[#646464] text-justify">{objective.description}</p>
           </div>
         ))}
       </div>

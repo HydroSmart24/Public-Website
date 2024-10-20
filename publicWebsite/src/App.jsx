@@ -1,5 +1,6 @@
 // src/App.jsx
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import Navbar from './assets/Sections/Navbar';
 import HeroSection from './assets/sections/HeroSection';
 import LiteratureSection from './assets/sections/LiteratureSection';
@@ -26,20 +27,23 @@ import './assets/styles/TeamSection.css';
 
 const App = () => {
   return (
-    <>
-      <Navbar />
-      <HeroSection />
-      <LiteratureSection />
-      <ResearchGapSection />
-      <ProblemSolutionSection />
-      <ResearchObjectivesSection />
-      <MethodologySection />
-      <TechnologiesSection />
-      <TimelineSection />
-      <DocumentsSection />
-      <PresenationsSection />
-      <TeamSection />
-    </>
+    <BrowserRouter basename="/Public-Website/publicwebsite">
+      <>
+        <Navbar />
+        <HeroSection />
+        <LiteratureSection />
+        <ResearchGapSection />
+        <ProblemSolutionSection />
+        <ResearchObjectivesSection />
+        <MethodologySection />
+        <TechnologiesSection />
+        <TimelineSection />
+        <DocumentsSection />
+        <PresenationsSection />
+        <TeamSection />
+      </>
+    </BrowserRouter>
   );
 };
+
 export default App;
