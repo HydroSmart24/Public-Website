@@ -27,7 +27,7 @@ import './assets/styles/TeamSection.css';
 
 const App = () => {
   return (
-    <BrowserRouter basename="/Public-Website/publicwebsite">
+    
       <>
         <Navbar />
         <HeroSection />
@@ -42,7 +42,7 @@ const App = () => {
         <PresenationsSection />
         <TeamSection />
       </>
-    </BrowserRouter>
+   
   );
 };
 
