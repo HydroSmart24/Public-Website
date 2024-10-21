@@ -13,6 +13,8 @@ import TimelineSection from './assets/sections/TimelineSection';
 import DocumentsSection from './assets/sections/DocumentsSection';
 import PresentationsSection from './assets/sections/PresentationsSection';
 import TeamSection from './assets/sections/TeamSection';
+import AppStore from './assets/sections/AppStore';
+import Contactus from './assets/sections/Contactus';
 import './assets/styles/Navbar.css';
 import './assets/styles/HeroSection.css';
 import './assets/styles/LiteratureSection.css';
@@ -41,6 +43,8 @@ const App = () => {
         <DocumentsSection />
         <PresentationsSection />
         <TeamSection />
+        <AppStore />
+        <Contactus />
       </>
     </Router>
   );
