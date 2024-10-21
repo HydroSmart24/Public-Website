@@ -18,7 +18,7 @@ const documents = [
 
 const DocumentsSection = () => {
   return (
-    <section className="documents-section">
+    <section id="downloads" className="documents-section">
     <h2 className="section-title">Downloads</h2>
     <hr className="section-divider" />
       <h2 className="documents-title">Documents</h2>

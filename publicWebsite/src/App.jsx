@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Use HashRouter and Routes
 import Navbar from './assets/sections/Navbar';
 import HeroSection from './assets/sections/HeroSection';
 import LiteratureSection from './assets/sections/LiteratureSection';
@@ -27,7 +27,7 @@ import './assets/styles/TeamSection.css';
 
 const App = () => {
   return (
-    
+    <Router>
       <>
         <Navbar />
         <HeroSection />
@@ -42,8 +42,9 @@ const App = () => {
         <PresentationsSection />
         <TeamSection />
       </>
-   
+    </Router>
   );
 };
+
 
 export default App;

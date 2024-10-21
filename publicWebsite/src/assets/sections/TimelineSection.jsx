@@ -12,7 +12,7 @@ const milestones = [
 
 const TimelineSection = () => {
   return (
-    <section className="py-20 px-8 bg-white text-gray-700">
+    <section id="milestones" className="py-20 px-8 bg-white text-gray-700">
       <h2 className="text-4xl font-semibold text-center mb-20">Project Timeline</h2>
       <div className="relative flex flex-col items-center gap-12 md:gap-16">
         {/* Center vertical timeline line */}

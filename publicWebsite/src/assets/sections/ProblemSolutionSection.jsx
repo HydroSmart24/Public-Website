@@ -24,12 +24,26 @@ const ProblemSolutionSection = () => {
 
       {/* Video and Solution in One Row */}
       <div className="flex gap-[5rem] items-start mb-[3rem]">
-        <div className="flex-1.4 flex flex-col items-center">
-          <div className="w-full h-[250px] bg-[#e8e8e8] flex items-center justify-center rounded-lg shadow-md">
-            <div className="text-[3rem] text-[#1089b8] cursor-pointer">▶</div>
-          </div>
-          <p className="font-poppins text-sm text-[#A2A1A1] mt-2 text-center">Product Demonstration – Solution</p>
+      <div className="flex-1.4 flex flex-col items-center">
+        <div className="w-[450px] h-[250px] bg-[#e8e8e8] flex items-center justify-center rounded-lg shadow-md">
+          {/* YouTube video iframe */}
+          <iframe 
+            width="560" 
+            height="315"
+            src="https://www.youtube.com/embed/sIsvOXDwUyM?si=V0-jHS7Wc6aJXQIf" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen
+            className="w-full h-full rounded-lg">
+          </iframe>
         </div>
+        <p className="font-poppins text-sm text-[#A2A1A1] mt-2 text-center">
+          Product Demonstration – Solution
+        </p>
+      </div>
+
 
         <div className="flex-2">
           <h3 className="font-poppins text-[1.6rem] font-medium mb-2 text-[#1089b8]">Proposed Solution</h3>

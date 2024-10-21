@@ -24,7 +24,7 @@ const formatName = (name) => {
 
 const TeamSection = () => {
   return (
-    <section className="py-20 px-36 bg-white text-gray-700">
+    <section id="aboutus" className="py-20 px-36 bg-white text-gray-700">
       <h2 className="text-4xl font-medium mb-6 text-center">About Us</h2>
       <hr className="border-t-2 border-gray-300 w-1/5 mx-auto mb-10" />
       <h2 className="text-4xl font-medium mb-20 text-center">Meet Our Team</h2>
