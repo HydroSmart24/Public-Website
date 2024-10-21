@@ -63,7 +63,7 @@ const ContactUsSection = () => {
   };
 
   return (
-    <section className="py-16 px-4 md:px-10 lg:px-20 mx-auto bg-white text-gray-700 z-50">
+    <section className="py-32 px-[135px] mx-auto bg-white text-gray-700 z-50">
       <h2 className="font-poppins text-lg font-medium text-customBlue text-left">Contact Us</h2>
       <hr className="w-36 h-0.5 bg-customBlue my-2 border-none" />
       <h3 className="font-poppins text-4xl font-medium mb-16 text-left">Get In Touch With Us</h3>

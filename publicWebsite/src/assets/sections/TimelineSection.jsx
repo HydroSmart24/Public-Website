@@ -12,8 +12,10 @@ const milestones = [
 
 const TimelineSection = () => {
   return (
-    <section id="milestones" className="py-20 px-8 bg-white text-gray-700">
-      <h2 className="text-4xl font-semibold text-center mb-20">Project Timeline</h2>
+    <section id="milestones" className="py-20 px-[135px] bg-white text-gray-700">
+    <h2 className="font-poppins text-lg font-medium text-[#1089B8]">Milestones</h2>
+    <hr className="w-36 h-0.5 bg-[#1089B8] my-2 border-none" />
+      <h2 className="font-poppins text-4xl font-medium mb-16">Project Timeline</h2>
       <div className="relative flex flex-col items-center gap-12 md:gap-16">
         {/* Center vertical timeline line */}
         <div className="absolute top-0 left-1/2 w-px h-full bg-transparent border-r-2 border-dashed border-gray-300 transform -translate-x-1/2"></div>

@@ -4,15 +4,18 @@ import kalpani from '../images/members/kalpani.jpg';
 import thusith from '../images/members/thusith.jpg';
 import samitha from '../images/members/samitha.png';
 import sandali from '../images/members/sandali.png';
+import kanishka from '../images/members/kanishka.jpg';
+import mehara from '../images/members/mehara.jpg';
+import kulanaka from '../images/members/kulanaka.jpg';
 
 const teamMembers = [
   { name: 'Dr.Kalpani Manthunga', role: 'Supervisor', image: kalpani },
   { name: 'Mr.Thushithanjana Thilakarathna', role: 'Co-Supervisor', image: thusith },
   { name: 'Mr.Samitha Vidanarachchi', role: 'Co-Supervisor', image: samitha },
   { name: 'Dissanayake D.M.S.D.K', role: 'Group Leader', image: sandali },
-  { name: 'Jayarathna M.K.G', role: 'Group Member', image: '' },
-  { name: 'Sahabandu M.', role: 'Group Member', image: '' },
-  { name: 'Bandara T.M.K.D', role: 'Group Member', image: '' },
+  { name: 'Jayarathna M.K.G', role: 'Group Member', image: kanishka },
+  { name: 'Sahabandu M.', role: 'Group Member', image: mehara },
+  { name: 'Bandara T.M.K.D', role: 'Group Member', image: kulanaka },
 ];
 
 const formatName = (name) => {
@@ -24,10 +27,10 @@ const formatName = (name) => {
 
 const TeamSection = () => {
   return (
-    <section id="aboutus" className="py-20 px-36 bg-white text-gray-700">
-      <h2 className="text-4xl font-medium mb-6 text-center">About Us</h2>
-      <hr className="border-t-2 border-gray-300 w-1/5 mx-auto mb-10" />
-      <h2 className="text-4xl font-medium mb-20 text-center">Meet Our Team</h2>
+    <section id="aboutus" className="py-32 px-36 bg-white text-gray-700">
+      <h2 className="font-poppins text-lg font-medium text-[#1089B8]">About Us</h2>
+      <hr className="w-36 h-0.5 bg-[#1089B8] my-2 border-none" />
+      <h2 className="font-poppins text-4xl font-medium mb-16">Meet Our Team</h2>
 
       {/* First row with 3 cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">

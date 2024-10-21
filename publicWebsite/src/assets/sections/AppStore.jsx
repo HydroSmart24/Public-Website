@@ -1,32 +1,43 @@
 import React from 'react';
 import hydroLogo from '../images/hydroLogo.png';
+import appPreview from '../images/appPreview.png'; // Adjust the path accordingly
 
 const DownloadSection = () => {
   return (
-    <section className="bg-customBlue text-white py-12 px-6 md:px-16 lg:px-36 flex flex-col md:flex-row justify-between items-center w-full min-h-[400px]">
+    <section className="bg-customBlue text-white px-6 md:px-16 lg:px-36 flex flex-col md:flex-row justify-between w-full min-h-[400px] relative overflow-hidden">
       {/* Left Side Content */}
-      <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4 md:w-1/2">
-        {/* Logo */}
-        <div className="w-32 h-32 bg-white rounded-lg flex items-center justify-center mb-4">
+      <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left space-y-4 md:w-1/2 py-20">
+        <div className="w-20 h-20 bg-white rounded-lg flex items-center justify-center mb-4">
           <img src={hydroLogo} alt="HydroSmart Logo" className="w-28 h-28 object-contain" />
         </div>
 
-        {/* Heading */}
         <h2 className="text-2xl md:text-3xl font-semibold">Download Now!</h2>
 
-        {/* Paragraph */}
-        <p className="text-lg md:text-xl">
+        <p className="text-lg md:text-l">
           HydroSmart mobile application is now available for download on Google Play. Click below to get the app now!
         </p>
+
+        <a 
+          href="https://play.google.com" 
+          className="mt-4"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img 
+            src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" 
+            alt="Google Play Badge" 
+            className="w-40"
+          />
+        </a>
       </div>
 
-      {/* Right Side Placeholder Images */}
-      <div className="relative flex mt-8 md:mt-0 md:w-1/2 justify-center md:justify-end">
-        {/* Background Grey Box (Placeholder) */}
-        <div className="w-40 h-40 md:w-60 md:h-60 lg:w-72 lg:h-72 bg-gray-300 rounded-lg shadow-lg" />
-
-        {/* Foreground Grey Box (Placeholder) */}
-        <div className="w-36 h-36 md:w-56 md:h-56 lg:w-64 lg:h-64 bg-gray-400 rounded-lg shadow-lg absolute top-10 left-10 md:top-14 md:left-14 lg:top-16 lg:left-16" />
+      {/* Right Side Image */}
+      <div className="relative md:w-1/2 flex items-end justify-end">
+        <img 
+          src={appPreview} 
+          alt="App Preview" 
+          className="absolute bottom-0 w-72 h-72 md:w-96 md:h-96 lg:w-[30rem] lg:h-[30rem] object-contain -ml-2"
+        />
       </div>
     </section>
   );

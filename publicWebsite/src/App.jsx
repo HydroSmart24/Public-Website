@@ -15,17 +15,6 @@ import PresentationsSection from './assets/sections/PresentationsSection';
 import TeamSection from './assets/sections/TeamSection';
 import AppStore from './assets/sections/AppStore';
 import Contactus from './assets/sections/Contactus';
-import './assets/styles/Navbar.css';
-import './assets/styles/HeroSection.css';
-import './assets/styles/LiteratureSection.css';
-import './assets/styles/ResearchGapSection.css';
-import './assets/styles/ProblemSolutionSection.css';
-import './assets/styles/ResearchObjectivesSection.css';
-import './assets/styles/MethodologySection.css';
-import './assets/styles/TechnologiesSection.css';
-import './assets/styles/TimelineSection.css';
-import './assets/styles/DocumentsSection.css';
-import './assets/styles/TeamSection.css';
 
 const App = () => {
   return (
