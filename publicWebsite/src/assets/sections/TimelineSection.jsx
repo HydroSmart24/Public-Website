@@ -2,12 +2,12 @@
 import React from 'react';
 
 const milestones = [
-  { title: 'Project Proposal', description: 'A project proposal is presented to potential sponsors or clients to receive funding or get your project approved.', date: 'Feb 2024' },
-  { title: 'Research Paper', description: 'A research paper is submitted to document findings and methodologies for the project.', date: 'Feb 2024' },
-  { title: 'Progress Presentation 1', description: 'Reviews the 50% completion status of the project. This reveals any gaps or inconsistencies in the design/requirements.', date: 'Feb 2024' },
-  { title: 'Progress Presentation 2', description: 'Reviews the 90% completion status demonstration of the project which describes the project as a whole.', date: 'Feb 2024' },
-  { title: 'Final Presentation And Viva', description: 'The final presentation and viva are conducted to present the entire project outcome.', date: 'Feb 2024' },
-  { title: 'Final Report', description: 'Reviews the 90% completion status and demonstration of the project.', date: 'Feb 2024' },
+  { title: 'Project Proposal', description: 'A project proposal is presented to get your project approved.', date: 'Feb 2024' },
+  { title: 'Progress Presentation 1', description: 'Reviews the 50% completion status of the project. This reveals any gaps or inconsistencies in the design/requirements.', date: 'May 2024' },
+  { title: 'Research Paper', description: 'A research paper is submitted to document findings and methodologies for the project.', date: 'May 2024' },
+  { title: 'Final Report', description: 'A report containing the overall project ion in-detail explanation.', date: 'Aug 2024' },
+  { title: 'Progress Presentation 2', description: 'Reviews the 90% completion status and demonstration of the project.', date: 'Sep 2024' },
+  { title: 'Final Presentation And Viva', description: 'The final presentation and viva are conducted to present the entire project outcome.', date: 'Oct 2024' },
 ];
 
 const TimelineSection = () => {
@@ -26,12 +26,12 @@ const TimelineSection = () => {
             className={`relative w-full md:w-1/2 flex justify-center ${index % 2 === 0 ? 'md:self-start' : 'md:self-end'}`}
           >
             {/* Milestone Card */}
-            <div className="relative flex items-center bg-gray-50 rounded-lg shadow-lg p-6 justify-between w-[85%] md:mx-12">
+            <div className="relative flex items-center bg-gray-50 rounded-lg shadow-lg p-8 justify-between w-[85%] md:mx-12">
               <div className="flex-1 text-left">
-                <h3 className="text-lg font-semibold text-blue-500 mb-2">{milestone.title}</h3>
-                <p className="text-sm text-gray-600">{milestone.description}</p>
+                <h3 className="text-lg font-semibold text-[#1089b8] mb-2">{milestone.title}</h3>
+                <p className="text-sm text-gray-600 mr-6">{milestone.description}</p>
               </div>
-              <div className="flex flex-col items-center border-l-2 border-gray-200 pl-4">
+              <div className="flex flex-col items-center border-l-2 border-gray-200 pl-6">
                 <span className="text-lg font-semibold text-gray-700">{milestone.date.split(' ')[0]}</span>
                 <span className="text-gray-500">{milestone.date.split(' ')[1]}</span>
               </div>

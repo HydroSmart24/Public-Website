@@ -15,6 +15,7 @@ import PresentationsSection from './assets/sections/PresentationsSection';
 import TeamSection from './assets/sections/TeamSection';
 import AppStore from './assets/sections/AppStore';
 import Contactus from './assets/sections/Contactus';
+import Footer from './assets/sections/Footer';
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
         <TeamSection />
         <AppStore />
         <Contactus />
+        <Footer/>
       </>
     </Router>
   );

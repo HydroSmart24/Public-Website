@@ -9,13 +9,13 @@ import mehara from '../images/members/mehara.jpg';
 import kulanaka from '../images/members/kulanaka.jpg';
 
 const teamMembers = [
-  { name: 'Dr.Kalpani Manthunga', role: 'Supervisor', image: kalpani },
-  { name: 'Mr.Thushithanjana Thilakarathna', role: 'Co-Supervisor', image: thusith },
-  { name: 'Mr.Samitha Vidanarachchi', role: 'Co-Supervisor', image: samitha },
-  { name: 'Dissanayake D.M.S.D.K', role: 'Group Leader', image: sandali },
-  { name: 'Jayarathna M.K.G', role: 'Group Member', image: kanishka },
-  { name: 'Sahabandu M.', role: 'Group Member', image: mehara },
-  { name: 'Bandara T.M.K.D', role: 'Group Member', image: kulanaka },
+  { name: 'Dr.Kalpani Manathunga', role: 'Supervisor', image: kalpani, linkedin: 'https://www.linkedin.com/in/kalpani-manathunga-0046ba91/?originalSubdomain=lk'  },
+  { name: 'Mr.Thusithanjana Thilakarathna', role: 'Co-Supervisor', image: thusith, linkedin: 'https://www.linkedin.com/in/thusithanjana-thilakarathna-18858677/'},
+  { name: 'Mr.Samitha Vidhanaarachchi', role: 'Co-Supervisor', image: samitha, linkedin: 'https://www.linkedin.com/in/samitha-vidhana-arachchi/'},
+  { name: 'Dissanayake D.M.S.D.K', role: 'Group Leader', image: sandali, linkedin: 'https://www.linkedin.com/in/sandali-dissanayake-61b602203/' },
+  { name: 'Jayarathna M.K.G', role: 'Group Member', image: kanishka, linkedin: 'https://www.linkedin.com/in/kanishkagj/' },
+  { name: 'Sahabandu M.', role: 'Group Member', image: mehara, linkedin: 'https://www.linkedin.com/in/mehara-sahabandu-95487b214/' },
+  { name: 'Bandara T.M.K.D', role: 'Group Member', image: kulanaka, linkedin: 'https://www.linkedin.com/in/kulanaka-bandara/'},
 ];
 
 const formatName = (name) => {
@@ -50,10 +50,15 @@ const TeamSection = () => {
                 <p className="text-sm font-semibold text-gray-500 mb-4">{member.role}</p>
                 <p className="text-sm text-gray-500">
                   Sri Lanka Institute Of Information Technology <br />
-                  <strong>Department:</strong> Information Systems Engineering
+                  <strong>Department:</strong> Software Engineering
                 </p>
                 <div className="mt-4">
-                  <a href="#" className="text-[#1089b8] text-sm mr-4 hover:underline">LinkedIn</a>
+                <a
+                    href={member.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#1089b8] text-sm mr-4 hover:underline"
+                  >LinkedIn</a>
                   <a href="#" className="text-[#1089b8] text-sm hover:underline">Email</a>
                 </div>
               </div>
@@ -80,10 +85,15 @@ const TeamSection = () => {
                 <p className="text-sm font-semibold text-gray-500 mb-4">{member.role}</p>
                 <p className="text-sm text-gray-500">
                   Sri Lanka Institute Of Information Technology <br />
-                  <strong>Department:</strong> Information Systems Engineering
+                  <strong>Department:</strong> Software Engineering
                 </p>
                 <div className="mt-4">
-                  <a href="#" className="text-[#1089b8] text-sm mr-4 hover:underline">LinkedIn</a>
+                <a
+                    href={member.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#1089b8] text-sm mr-4 hover:underline"
+                  >LinkedIn</a>
                   <a href="#" className="text-[#1089b8] text-sm hover:underline">Email</a>
                 </div>
               </div>

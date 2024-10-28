@@ -8,7 +8,7 @@ const DownloadSection = () => {
       {/* Left Side Content */}
       <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left space-y-4 md:w-1/2 py-20">
         <div className="w-20 h-20 bg-white rounded-lg flex items-center justify-center mb-4">
-          <img src={hydroLogo} alt="HydroSmart Logo" className="w-28 h-28 object-contain" />
+          <img src={hydroLogo} alt="HydroSmart Logo" className="w-28 h-28 object-contain rounded-full" />
         </div>
 
         <h2 className="text-2xl md:text-3xl font-semibold">Download Now!</h2>
@@ -32,11 +32,10 @@ const DownloadSection = () => {
       </div>
 
       {/* Right Side Image */}
-      <div className="relative md:w-1/2 flex items-end justify-end">
+      <div className="relative md:w-1/2 flex items-end justify-end mb-0">
         <img 
           src={appPreview} 
-          alt="App Preview" 
-          className="absolute bottom-0 w-72 h-72 md:w-96 md:h-96 lg:w-[30rem] lg:h-[30rem] object-contain -ml-2"
+          alt="App Preview"
         />
       </div>
     </section>
