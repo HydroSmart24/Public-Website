@@ -1,6 +1,6 @@
 // src/sections/TeamSection.jsx
 import React from 'react';
-import kalpani from '../images/members/kalpani.jpg';
+import kalpani from '../images/members/kalpani.png';
 import thusith from '../images/members/thusith.jpg';
 import samitha from '../images/members/samitha.png';
 import sandali from '../images/members/sandali.png';
