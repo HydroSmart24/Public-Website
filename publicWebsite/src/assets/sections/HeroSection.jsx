@@ -1,8 +1,14 @@
-// src/sections/HeroSection.jsx
 import React from 'react';
 import heroImage from '../images/hero-image.jpg'; // Import image for the hero section.
 
 const HeroSection = () => {
+  const scrollToScope = () => {
+    const scopeSection = document.getElementById('scope');
+    if (scopeSection) {
+      scopeSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section
       id="home"
@@ -19,10 +25,12 @@ const HeroSection = () => {
           <span className="block">
             WITH <span className="text-customBlue">SMART</span>
           </span>
-          
           <span className="text-customBlue">WATER MANAGEMENT</span>
         </h1>
-        <button className="bg-customBlue text-white py-2 px-4 rounded-full hover:bg-customBlueHover transition-all flex items-center justify-center mt-2">
+        <button
+          onClick={scrollToScope}
+          className="bg-customBlue text-white py-2 px-4 rounded-full hover:bg-customBlueHover transition-all flex items-center justify-center mt-2"
+        >
           Explore More <span className="ml-2 text-lg">→</span>
         </button>
       </div>

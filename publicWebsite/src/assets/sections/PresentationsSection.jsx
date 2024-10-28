@@ -3,9 +3,9 @@ import React from 'react';
 
 const documents = [
   { title: 'Project Proposal', submissionDate: '23/02/2024', group: 'Group', link: 'https://drive.google.com/drive/folders/1J1rmBY5xPzjQId-BkzKAXRHG4E7XEyMW?usp=sharing'},
-  { title: 'Progress Presentation 1', submissionDate: '23/02/2024', group: 'Group', link: 'https://drive.google.com/drive/folders/1cpEOoHMiaHmvUNRuvy4yi0KDbqTKfEje?usp=sharing'},
-  { title: 'Progress Presentation 2', submissionDate: '23/02/2024', group: 'Group', link: 'https://drive.google.com/drive/folders/1oHt8XMVVFLP0LscbdlVwaKR43EwfGnNx?usp=sharing' },
-  { title: 'Final Presentation', submissionDate: '23/02/2024', group: 'Group', link: 'https://drive.google.com/drive/folders/1yRXjfBIJwSx9E2W0ldwsrKP6k9uqWLA4?usp=sharing' },
+  { title: 'Progress Presentation 1', submissionDate: '07/05/2024', group: 'Group', link: 'https://drive.google.com/drive/folders/1cpEOoHMiaHmvUNRuvy4yi0KDbqTKfEje?usp=sharing'},
+  { title: 'Progress Presentation 2', submissionDate: '12/09/2024', group: 'Group', link: 'https://drive.google.com/drive/folders/1oHt8XMVVFLP0LscbdlVwaKR43EwfGnNx?usp=sharing' },
+  { title: 'Final Presentation', submissionDate: '29/10/2024', group: 'Group', link: 'https://drive.google.com/drive/folders/1yRXjfBIJwSx9E2W0ldwsrKP6k9uqWLA4?usp=sharing' },
 ];
 
 const PresenationsSection = () => {
