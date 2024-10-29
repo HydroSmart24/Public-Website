@@ -59,7 +59,7 @@ const TeamSection = () => {
                     rel="noopener noreferrer"
                     className="text-[#1089b8] text-sm mr-4 hover:underline"
                   >LinkedIn</a>
-                  <a href="#" className="text-[#1089b8] text-sm hover:underline">Email</a>
+                  
                 </div>
               </div>
             </div>
@@ -94,7 +94,7 @@ const TeamSection = () => {
                     rel="noopener noreferrer"
                     className="text-[#1089b8] text-sm mr-4 hover:underline"
                   >LinkedIn</a>
-                  <a href="#" className="text-[#1089b8] text-sm hover:underline">Email</a>
+
                 </div>
               </div>
             </div>
